@@ -101,7 +101,7 @@ export function BuyButton({ productId, price, productName, disabled, quantity = 
         <>
             <Button
                 size="lg"
-                className="w-full md:w-auto bg-foreground text-background hover:bg-foreground/90"
+                className="w-full md:w-auto bg-foreground text-background hover:bg-foreground/90 cursor-pointer"
                 onClick={handleInitialClick}
                 disabled={disabled}
             >
